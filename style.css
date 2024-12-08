@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#menu {
+  position: fixed;
+  background-color: rgb(104, 176, 249);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  transition: backround-color 2s;
+}
+
+#cont1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#menu:hover {
+  transition: backround-color 2s;
+  background-color: darkorange;
+}
+
+header {
+  background-color: rgb(196, 227, 255);
+  padding: 30px;
+  line-height: 30px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+h1:hover {
+  font-size: 40px;
+  transition: font-size 1s;
+}
+
+#sabonner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+#sabonner h2{
+    font-size: 40px;
+}
+
+.formulaire {
+  margin-bottom: 20px;
+}
+
+table {
+  background-color: aliceblue;
+  width: 80%;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+#grostableau {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#personnages {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  transform: rotate(-90deg);
+  margin-top: 100px;
+}
+
+#article img {
+  width: 50%;
+}
+
+#article2 p {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+#article {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 385px;
+  margin-top: 100px;
+}
+
+#article h2{
+    font-size: 40px;
+}
+
+#article1 {
+  display: flex;
+}
+
+#article2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#grosarticle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#video {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#video h2{
+    font-size: 30px;
+}
+
+.espace{
+    margin-bottom: 30px;
+}
+
+#pvideo{
+    width: 40%;
+}
+
+#galerie{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#galerie img{
+    width: 30%;
+}
+
+#titre-galerie{
+    margin-bottom: 30px;
+    font-size: 25px;
+    transform: scale(2);
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(104, 176, 249);
+    padding: 20px;
+}
+
+#sources{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+ion-icon{
+    font-size: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#wiki{
+    margin-left: 15px;
+}
+
+#avis{
+    margin-top: 15px;
+    margin-left: 6px;
+}
